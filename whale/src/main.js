@@ -4,11 +4,11 @@ import router from './router'
 import store from './store'
 import axios from 'axios'
 //1引入全局组件MyHeader
-import MyHeader from './components/MyHeader'
+import MyHeader from './components/MyHeader.vue'
 //2定义全局组件
 Vue.component("my-header",MyHeader);
 //3引入全局组件MyFooter
-import MyFooter from './components/MyFooter'
+import MyFooter from './components/MyFooter.vue'
 //4定义全局组件
 Vue.component("my-footer",MyFooter);
 
